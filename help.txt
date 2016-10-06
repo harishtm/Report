@@ -1,0 +1,40 @@
+
+
+Requirements : 
+=========================================
+
+
+Package1 : sudo pip install reportlab
+
+Package1 : PIL
+
+Pillow Version should be ==>> Pillow==2.1.0
+
+Pillow Version Should Match With Report Lab
+
+
+Check Settings MEDIA_ROOT and other path
+
+
+Description : 
+=========================================
+
+Report Lab Django package to import pdf
+
+
+
+Important Links
+
+https://docs.djangoproject.com/en/1.7/howto/outputting-pdf/
+
+http://www.reportlab.com/docs/reportlab-userguide.pdf
+
+http://eric.sau.pe/reportlab-and-django-part-3-paragraphs-and-tables/
+
+http://ericsaupe.com/reportlab-and-django-part-1-the-set-up-and-a-basic-example/
+
+
+http://www.blog.pythonlibrary.org/2010/09/21/reportlab-tables-creating-tables-in-pdfs-with-python/
+
+http://stackoverflow.com/questions/17915879/python-reportlab-inserting-image-into-table
+

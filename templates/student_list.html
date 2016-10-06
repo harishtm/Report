@@ -1,0 +1,28 @@
+<html>
+<body>
+
+
+<table border=1>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for st in student_list %}
+        <tr>
+            <td>{{st.name}}</td>
+            <td>{{st.age}}</td>
+            <td>{{st.address}}</td>
+            <td><a href="/print-pdf/{{st.id}}/">Print PDF</a></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+</body>
+</html>
